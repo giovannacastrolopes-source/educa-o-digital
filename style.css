@@ -1,0 +1,13 @@
+*{
+    font-family: Arial, Heivetice,sans-serif ;
+    font-size: 17px;
+    color: black;
+    margin-top: auto;
+}
+body{
+    background-color:aquamarine;
+}
+header{
+    background-color:black;
+    color:black;
+}
