@@ -3,21 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu blog</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Meu Blog de Tecnologia e Educação</title>
+    <style>
+        /* Estilização do Cabeçalho (Header) */
+*{
+    color:white;
+}
+
+        header {
+            background-color: lightseagreen;
+            color: # FFFFFF
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+            /* A borda abaixo foi usada para visualização e pode ser removida se desejar */
+            border: 5px solid #cf1010; 
+        }
+
+        body{
+            background-color: lightpink;
+        }
+
+        /* Estilização do Conteúdo Principal (Main) */
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        /* Estilização da Imagem */
+        img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .texto{
+            background-color: yellowgreen
+        }
+
+        .texto-2{
+            background-color: lightcoral;
+        }
+
+    </style>
 </head>
 <body>
 
-<header>
-   <img src="professor.jpg" alt="professor">
-   <h2>Quem poderá ajudar os professores?</h2>
-   <p>Governo do Estado do Paraná afirma que apenas eles podem se ajudar.</p>
-</header>
+    <header>
+        <h1>Bem-vindo ao Blog de Tecnologia e Educação</h1>
+        <p>Aprendendo a organizar espaços e layouts na web.</p>
+    </header>
 
-<main>
-   <h1>Minha primeira postagem</h1>
-   <p>Os professores encontram-se sem paciência, pois os alunos são indisciplinados.</p>
-</main>
+    <main>
+        <h2>Primeiros Passos com HTML e CSS</h2>
+        <div class="texto">
+        <p>Até agora, a página apresentava apenas textos. A partir deste momento, inserimos elementos visuais e controlamos os espaçamentos internos (padding) e externos (margin) para deixar a leitura muito mais confortável.</p>
+        </div>
+        <img src="professor.jpg" alt="logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
+        <div class="texto-2">
+        <p>Com o Box Model (conteúdo, padding, borda e margem), o layout do site responde automaticamente quando a tela do navegador é redimensionada, mantendo tudo centralizado e elegante.</p>
+            </div>
+    </main> 
 
 </body>
 </html>
