@@ -4,49 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Blog de Tecnologia e Educação</title>
-    <style>
-        /* Estilização do Cabeçalho (Header) */
-*{
-    color:white;
-}
-
-        header {
-            background-color: lightseagreen;
-            color: # FFFFFF
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 16px;
-            /* A borda abaixo foi usada para visualização e pode ser removida se desejar */
-            border: 5px solid #cf1010; 
-        }
-
-        body{
-            background-color: lightpink;
-        }
-
-        /* Estilização do Conteúdo Principal (Main) */
-        main {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 16px;
-        }
-
-        /* Estilização da Imagem */
-        img {
-            width: 80px;
-            height: 80px;
-        }
-
-        .texto{
-            background-color: yellowgreen
-        }
-
-        .texto-2{
-            background-color: lightcoral;
-        }
-
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -57,13 +18,18 @@
 
     <main>
         <h2>Primeiros Passos com HTML e CSS</h2>
-        <div class="texto">
-        <p>Até agora, a página apresentava apenas textos. A partir deste momento, inserimos elementos visuais e controlamos os espaçamentos internos (padding) e externos (margin) para deixar a leitura muito mais confortável.</p>
+        
+        <div class="card texto-1">
+            <p>Até agora, a página apresentava apenas textos. A partir deste momento, inserimos elementos visuais e controlamos os espaçamentos internos (padding) e externos (margin) para deixar a leitura muito mais confortável.</p>
         </div>
-        <img src="professor.jpg" alt="logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
-        <div class="texto-2">
-        <p>Com o Box Model (conteúdo, padding, borda e margem), o layout do site responde automaticamente quando a tela do navegador é redimensionada, mantendo tudo centralizado e elegante.</p>
-            </div>
+
+        <div class="midia">
+            <img src="professor.jpg" alt="Professor em sala de aula">
+        </div>
+
+        <div class="card texto-2">
+            <p>Com o Box Model (conteúdo, padding, borda e margem), o layout do site responde automaticamente quando a tela do navegador é redimensionada, mantendo tudo centralizado e elegante.</p>
+        </div>
     </main> 
 
 </body>
